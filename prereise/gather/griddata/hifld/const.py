@@ -402,3 +402,47 @@ dc_line_ratings = {  # MW
     310053: 400,  # Trans-Bay Cable
     311958: 5,  # Alamogordo Solar Energy Center
 }
+
+powersimdata_column_defaults = {
+    "branch": {
+        "rateB": 0,
+        "rateC": 0,
+        "angle": 0,
+        "status": 1,
+        "angmin": 0,
+        "angmax": 0,
+        "Pf": 0,
+        "Qf": 0,
+        "Pt": 0,
+        "Qt": 0,
+        "mu_Sf": 0,
+        "mu_St": 0,
+        "mu_angmin": 0,
+        "mu_angmax": 0,
+    },
+    "gencost": {"type": 2, "startup": 0, "shutdown": 0, "n": 3},
+    "plant": {
+        "Pg": 0,
+        "Qg": 0,
+        "Qmax": 0,
+        "Qmin": 0,
+        "Vg": 1,
+        "mBase": 1000,
+        "status": 1,
+        "Pc1": 0,
+        "Pc2": 0,
+        "Qc1min": 0,
+        "Qc1max": 0,
+        "Qc2min": 0,
+        "Qc2max": 0,
+        "ramp_agc": 0,
+        "ramp_10": 0,
+        "ramp_30": 0,
+        "ramp_q": 0,
+        "apf": 0,
+        "mu_Pmax": 0,
+        "mu_Pmin": 0,
+        "mu_Qmax": 0,
+        "mu_Qmin": 0,
+    },
+}
